@@ -2,7 +2,7 @@
 {
   "functions": {
     "api/tuya-proxy.js": {
-      "runtime": "edge"
+      "runtime": "@vercel/edge@latest"
     }
   },
   "rewrites": [
