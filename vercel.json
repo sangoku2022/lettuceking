@@ -1,0 +1,14 @@
+
+{
+  "functions": {
+    "api/tuya-proxy.js": {
+      "runtime": "edge"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    }
+  ]
+}
